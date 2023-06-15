@@ -1,0 +1,7 @@
+C:\Users\kmaki\RiderProjects\Practica_1\Practica_1\bin\Debug\Practica_1.exe
+C:\Users\kmaki\RiderProjects\Practica_1\Practica_1\bin\Debug\Practica_1.pdb
+C:\Users\kmaki\RiderProjects\Practica_1\Practica_1\obj\Debug\Practica_1.csproj.AssemblyReference.cache
+C:\Users\kmaki\RiderProjects\Practica_1\Practica_1\obj\Debug\Practica_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\kmaki\RiderProjects\Practica_1\Practica_1\obj\Debug\Practica_1.csproj.CoreCompileInputs.cache
+C:\Users\kmaki\RiderProjects\Practica_1\Practica_1\obj\Debug\Practica_1.exe
+C:\Users\kmaki\RiderProjects\Practica_1\Practica_1\obj\Debug\Practica_1.pdb

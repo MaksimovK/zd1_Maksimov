@@ -65,12 +65,6 @@ namespace Practic_1_3
             else MessageBox.Show("Неверный индекс аудиозаписи", "Ошибка");
         }
 
-        public void RemoveSong(Song song)
-        {
-            int index = list.FindIndex(s => s.Equals(song));
-            if (index != -1) list.RemoveAt(index);
-        }
-
         public void ClearPlaylist()
         {
             list.Clear();

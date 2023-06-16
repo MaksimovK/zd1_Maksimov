@@ -45,7 +45,7 @@ namespace Practic_1_3
             MessageBox.Show("Композиция была добавлена!", "Отлично!");
         }
 
-        
+
         private void bt_next_Click_1(object sender, EventArgs e)
         {
             playlist.NextSong();
@@ -57,6 +57,7 @@ namespace Practic_1_3
             playlist.PreviousSong();
             UpdateCurrentSong();
         }
+
         private void UpdateCurrentSong()
         {
             try
@@ -66,7 +67,7 @@ namespace Practic_1_3
                 titleLabel.Text = currentSong.Title;
                 filenameLabel.Text = currentSong.Filename;
             }
-            catch (IndexOutOfRangeException)
+            catch (Exception)
             {
                 authorLabel.Text = string.Empty;
                 titleLabel.Text = string.Empty;
@@ -94,11 +95,13 @@ namespace Practic_1_3
                 {
                     playlist.GoToSong(index);
                     UpdateCurrentSong();
-                } catch (IndexOutOfRangeException ex)
+                }
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message, "Ошибка!");
                 }
-            } else
+            }
+            else
                 MessageBox.Show("Введите корректный индекс.", "Ошибка!");
         }
 
@@ -110,11 +113,13 @@ namespace Practic_1_3
                 {
                     playlist.RemoveSong(index);
                     UpdateCurrentSong();
-                } catch (IndexOutOfRangeException ex)
+                }
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message, "Ошибка!");
                 }
-            } else
+            }
+            else
                 MessageBox.Show("Введите корректный индекс.", "Ошибка!");
         }
     }
